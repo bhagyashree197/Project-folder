@@ -1,0 +1,95 @@
+header
+{
+    width:100%;
+  
+    position: fixed;
+    
+    
+}
+.container
+{
+    width:1170px;
+    
+    margin:0 auto;
+    
+}
+header .container img{
+    
+    margin:19px 0px 17px;
+}
+nav{
+    float:right;
+    margin-top:20px;
+    
+}
+nav ul{
+    padding:0px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-family:'Montserrat', sans-serif;
+    font-size:16px;
+    color:black;
+    width:100%;
+    padding:35px 15px;
+}
+
+  nav ul li a:hover{
+    background-color: #4DAEB2;
+    color:white;
+
+}
+.logina
+{
+    margin-right:0px;
+    color:#4DAEB2;
+}
+
+#maincontent
+{
+    clear:both;
+    background-color:green;
+}
+#maincontent .container
+{
+    
+    background-color:wheat;
+    position:relative;
+    width:1170px;
+    height:500px;
+    clear:both;
+    padding-top:96px;
+}
+#maincontent .container img
+{
+
+width:432px;
+height:552px;
+position:absolute;
+top:23px;
+right:0px;
+display:inline-block;
+}
+
+.uppercontent
+{
+    display:inline-block;
+   text-align:center;
+   
+}
+.uppertext 
+{
+    font-family: 'Rubik', sans-serif;
+    font-size:52px;
+    text-align:center;
+    
+}
+.uppercontent{
+    text-align:center;
+}
