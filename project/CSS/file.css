@@ -1,37 +1,24 @@
-header
-{
+header{
     width:100%;
-
     position: fixed;
     float:left;
     z-index:1;
     background-color:#FFFFFF;
     box-shadow:0px 1px #F1EFFD;
-    
-    
 }
-#logoa
-{
-    position:static;
- 
-    
-}
-.container
-{
+
+.container{
     width:1170px;
-    
     margin:0 auto;
-    
 }
 header .container .logo{
-    
     margin:19px 0px 17px;
     display:inline-block;
 }
 nav{
     float:right;
     margin-top:20px;
-    display:block;
+   
     
 }
 nav ul{
@@ -51,125 +38,105 @@ nav ul li a{
     width:100%;
     padding:35px 15px;
 }
+.homeactive
+{
+    background-color: #4DAEB2;
+    color:white;
+}
 
-  nav ul li a:hover{
+
+nav ul li a:hover{
     background-color: #4DAEB2;
     color:white;
 
 }
-.logina
-{
+nav ul li a:active{
+    background-color: #4DAEB2;
+    color:white;
+
+}
+.logina{
     margin-right:0px;
     color:#4DAEB2;
 }
 
-#maincontent
-{
+#maincontent{
     padding-top:90px;
     box-shadow:0px 4px 10px #DED9F9;
     height:493px;
     background-color:#FAF9FF;
     text-align:center;
 }
-#maincontent .container
-{
+#maincontent .container{
     position:relative;
     width:1170px;
-    display: inline-block;
     margin:0 auto;
 }
 
-#maincontent .container .computerimage img{
+#maincontent .container  img{
     position:absolute;
     top:23px;
     right:0px;
     }
 
-.content
-{
-  
-   float:left;
+.content{
+  float:left;
    margin-right:83px;
    width:55%;
    margin-top:96px;
-   
-
 }
-
-
-.uppercontent
-{
-
-   
+.content h1{
    margin-bottom:23.81px;
    color:#261D4B;
- 
-   
-}
-.uppertext 
-{
+ }
+.uppertext {
     font-family: 'Rubik', sans-serif;
     font-size:52px;
     font-weight:lighter;
     text-align:right;
     margin:0px;
-    
 }
-
-.lowercontent
-{
-   
-
+.content p{
     text-align:right;
     font-size:20px;
     padding-bottom:36px;
-}
-.lowercontent .lowertext
-{
     margin:0px;
     color:#726F7A;
-    line-height:22px;
+    
 
 }
-.buttonlink
-{
-   
-    background-color:#82D7DB;
-  
-    padding:15px 21px;
-    transform:skew(-20deg);
-    float:right;
-border-radius:5px;
-   
 
-}
 .content a{
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
      float:right;
+     padding:15px 21px;
+     background-color: #82D7DB;
      font-weight:lighter;
-     transform:skew(20deg);
+     transform:skew(-20deg);
      color:black;
+     border-radius:5px;
+}
+.content a p{
+    transform:skew(20deg);
+    padding-bottom:0px;
+    
 }
 
-#secondmaincontainer
-{
+.secondmainbodycontainer{
   
     clear:both;
     text-align: center;
-   
     padding-top:60px;
        
 }
-#secondmaincontainer .container
-{
+.secondmainbodysection .container{
    
     padding-top:23px;
-    height:500px;
+    
     
 }
-#secondmaincontainer h3{
-   
+.secondmainsection h3{
     font-family: 'Rubik', sans-serif;
     font-size:40px;
     font-weight:lighter;
@@ -180,8 +147,7 @@ border-radius:5px;
   
 }
 
-#secondmaincontainer .secondcontent
-{
+.secondmainsection .secondcontent{
     text-align: center;
     margin-bottom:0px;
     margin-top:0px;
@@ -191,25 +157,37 @@ border-radius:5px;
    font-family:'Montserrat', sans-serif;
    font-weight:lighter;
 }
-.thirdmaincontainer{
+.thirdmainsection{
     margin:auto;
     display: inline-block;
     text-align: center;
   
     
 }
-.thirdmaincontainer .tools
-{
+.thirdmainsection .tools{
 display:inline-block;
-width:136px;
-height:154px;
-background-image:url("../images/Shape 1 copy 3.png");
-margin-right:65px;
-background-size:contain;
-padding-top:27px;
+width:154px;
+height:171px;
+margin-right:32px;
+background-image:url("../images/normalhex.png");
+margin-left:32px;
+background-position:center center;
+background-repeat: no-repeat;
 box-sizing: border-box;
+background-color: white;
+
 
 }
+.tools:hover{
+    background-image:url("../images/hoverhexagon.png");
+    background-position:center center;
+}
+
+.innerimage
+{
+    margin-top:34px;
+}
+
 .tools p{
     font-family: 'Rubik', sans-serif;
     font-weight:400px;
@@ -217,19 +195,40 @@ box-sizing: border-box;
     margin-top:12px;
     color:white;
 }
-.fourthmaincontainer
-{
-   
-    height:300px;
+
+.fourthmainsection{
+   margin-top:50px;
     padding-top:62px;
+   display: inline-block;
+    position:relative;
+    border:1px solid #DCDCDC;
+    padding-left:30px;
 }
-.fourthmaincontainer img{
-    text-align:right;
-   
+.fourthmainsection::before{
+    content:"";
+   position:absolute;
+   margin-top:-88px;
+   margin-left:130px;
+   background-color: white;
+    height:50px;
+    width:50px;
+   border-left:1px solid #DCDCDC;
+   border-right:1px solid transparent;
+   border-bottom:1px solid transparent;
+   border-top:1px solid #DCDCDC;
+   transform:rotate(45deg);
+}
+
+
+.fourthmainsection img{
     float:right;
+    margin-right:30px;
+    margin-left:53px;
+    margin-bottom:30px;
+   
+    
 } 
-.fourthcontent 
-{
+.fourthcontent {
   
     display: inline-block;
     width:444.34px;
@@ -238,7 +237,13 @@ box-sizing: border-box;
     color:#615F67;
     text-align:justify;
     
+    
 }
+.fourthcontent p{
+    width:444.44px;
+    
+    margin:0px;
+} 
 .fourthcontent ul{
     padding-left:15px;
 }
@@ -249,4 +254,159 @@ box-sizing: border-box;
     text-align:justify;
     list-style-position: outside;
     
+}
+.fifthmainsection{
+    margin-top:52px;
+    text-align:center;
+    padding-top:34px;
+    color:#FFFFFF;
+    position:relative;
+} 
+.fifthmainsection::after{
+    content:"";
+   position:absolute;
+   margin-top:-33px;
+   margin-left:-35px;
+   background-color:#F7F7FB;
+    height:55px;
+    width:55px;
+   border-left:1px solid transparent;
+   border-right:1px solid #DCDCDC;
+   border-bottom:1px solid #DCDCDC;
+   box-shadow:1px 1px #8D87A8;
+   border-top:1px solid transparent;
+   transform:rotate(45deg);
+}
+.fifthmainsection h1{
+    margin-bottom:59px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size:40px;
+    color:#261B4A;
+}  
+.fifthmainsection .imagecontainer{
+   
+    display: inline-block;
+    text-align: center;
+    height:258px;
+    margin-bottom:64px;
+}
+ .categories h5{
+    font-size:22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    margin-top:40px;
+    margin-bottom:0px;
+}
+.categorydetails{
+    font-size:20px;
+}
+.fifthmainsection .categories{
+    float:left;
+   
+    width:229px;
+    height:258px;
+    background-image:url("../images/darkhexagon.png");
+   text-align:center;
+    font-size:22px;
+}
+.categories:nth-child(2){
+    margin:0px 135px;
+}
+
+.categories:nth-child(2) .categorydetails{
+    margin-top:2px;
+    margin-bottom:0px;
+}
+.categories:nth-child(1) .categorydetails{
+    margin-top:26px;
+   
+}
+.categories:nth-child(3) .categorydetails{
+    margin-top:4px;
+}
+.fifthmainsection{
+    background-color: #F7F7FB;
+}
+
+.fifthmainsection .categoryimage1{
+    display:inline-block;
+    margin-top:38px;
+}
+.fifthmainsection .categoryimage2{
+    display:inline-block;
+    margin-top:35px;
+}
+
+.fifthmainsection .categoryimage3{
+    display:inline-block;
+    margin-top:30px;
+}
+.categoryclass{
+float:left;
+width:54px;
+font-size:12px;
+margin-left:11px;
+color: #8ADCDB;
+font-family: 'Rubik', sans-serif;
+font-weight:300px;
+}
+.categoryclass:nth-child(2){
+    border-left:1px solid #8ADCDB;
+    border-right:1px solid #8ADCDB;
+    padding:0px 2px;
+}
+.categoryimage:nth-child(1) img:nth-child(2){
+    margin-right:17px;
+    margin-left:14px;
+}
+.videosection{
+    text-align:center;
+    padding-bottom:31px;
+}
+.videosection h3{
+    font-size:40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:lighter;
+}
+footer{
+   
+    clear:both;
+    background-color:#2A2735;
+    }
+footer .container{
+width:1170px;
+margin:0 auto;
+}
+footer p{
+    margin:0px;
+    display: inline-block;
+    margin-top:30px; 
+    padding-bottom:20px;
+    color:#A5A5A5;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:13px;
+}
+
+.footericon{
+    float:right;
+  
+    margin-top:20px;
+    font-size:13px;
+}
+
+.iconbkg{
+    width:32.76px;
+    height:36.01px;
+    background-image:url("../images/Shape 1 copy 7.svg");
+    float:left;
+    margin-left:4.81px;
+    text-align: center;
+}
+
+.iconbkg i{
+padding-top:11px;
+color:white
 }
