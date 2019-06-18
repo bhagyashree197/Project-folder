@@ -148,7 +148,7 @@ nav ul li a:active{
 }
 
 .secondmainsection .secondcontent{
-    text-align: center;
+    
     margin-bottom:0px;
     margin-top:0px;
     padding-bottom:33px;
@@ -157,12 +157,21 @@ nav ul li a:active{
    font-family:'Montserrat', sans-serif;
    font-weight:lighter;
 }
+hr{
+    color:#C7E3E3;
+    position: absolute;
+    width: 553px;
+    top: 76px;
+    left: 168px;
+    height:1px;
+    z-index: -1;
+}
 .thirdmainsection{
     margin:auto;
     display: inline-block;
     text-align: center;
-  
-    
+   
+    position:relative;
 }
 .thirdmainsection .tools{
 display:inline-block;
@@ -171,13 +180,11 @@ height:171px;
 margin-right:32px;
 background-image:url("../images/normalhex.png");
 margin-left:32px;
-background-position:center center;
+background-position:center ;
+background-position-y: 7px;
 background-repeat: no-repeat;
-box-sizing: border-box;
-background-color: white;
-
-
 }
+
 .tools:hover{
     background-image:url("../images/hoverhexagon.png");
     background-position:center center;
