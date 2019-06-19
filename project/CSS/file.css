@@ -244,7 +244,7 @@ nav ul li a:active{
 .fourthmainsection::before{
     content:"";
    position:absolute;
-    left:139px;
+    left:173px;
     top:-18px;
    background-color:white;
     height:35px;
