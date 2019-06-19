@@ -102,6 +102,7 @@ nav ul li a:active{
 .content h1{
    margin-bottom:24px;
    color:#261D4B;
+   line-height:40px;
  }
 .uppertext {
     font-family: 'Rubik', sans-serif;
@@ -146,19 +147,22 @@ nav ul li a:active{
 
 
 .secondmainbodycontainer{
-     margin-top:83px;
+     margin-top:104px;
     clear:both;
     text-align: center;
+  
        
 }
 .secondmainbodycontainer .container{
-
+    padding-top:23px;
     width:1170px;
     margin:0 auto;
-    padding-top:23px;
+    
+ 
     
     
 }
+
 .secondmainsection h3{
     font-family: 'Rubik', sans-serif;
     font-size:40px;
