@@ -1,11 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
-h1{
-
-}
-
 h2
 {
     color:#261B4A;
@@ -158,10 +153,7 @@ nav ul li a:active{
   
        
 }
-.secondmainsection 
-{
-    padding-top:23px;
-}
+
 
 .secondmainsection h3{
     font-family: 'Rubik', sans-serif;
@@ -421,6 +413,9 @@ font-weight:300px;
     text-align:center;
     padding-bottom:31px;
     padding-top:38px;
+}
+.videosection video{
+    margin-top:19px;
 }
 footer{
    
