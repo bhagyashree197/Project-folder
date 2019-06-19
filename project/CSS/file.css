@@ -1,11 +1,16 @@
 *{
     box-sizing: border-box;
 }
+
+h1{
+
+}
+
 h2
 {
     color:#261B4A;
     font-size:40px;
-    line-height:26px;
+    line-height:40px;
     font-family: 'Rubik', sans-serif;
     font-weight:300;
 }
@@ -99,12 +104,12 @@ nav ul li a:active{
    width:55%;
    margin-top:96px;
 }
-.content h1{
-   margin-bottom:24px;
-   color:#261D4B;
-   line-height:40px;
- }
+
+
+ 
 .uppertext {
+    margin-bottom:24px;
+    color:#261D4B;
     font-family: 'Rubik', sans-serif;
     font-size:52px;
     font-weight:300;
@@ -147,20 +152,15 @@ nav ul li a:active{
 
 
 .secondmainbodycontainer{
-     margin-top:104px;
+     margin-top:106px;
     clear:both;
     text-align: center;
   
        
 }
-.secondmainbodycontainer .container{
+.secondmainsection 
+{
     padding-top:23px;
-    width:1170px;
-    margin:0 auto;
-    
- 
-    
-    
 }
 
 .secondmainsection h3{
