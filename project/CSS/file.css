@@ -183,13 +183,11 @@ nav ul li a:active{
 }
 .thirdmainsection span{
   
-    border:1px solid;
-    color:#C7E3E3;
+    background-color: #C7E3E3;
     position: absolute;
-    width:80%;
+    width:60%;
     top: 85px;
-    left:10%;
-   
+    left:20%;
     height:1px;
     z-index: -1;
 }
